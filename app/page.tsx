@@ -1,5 +1,5 @@
 import AcmeLogo from '@/app/ui/acme-logo';
-import { lusitana } from '@/app/ui/fonts';
+import { montserrat } from '@/app/ui/fonts';
 import Image from 'next/image';
 import { ArrowRightIcon } from '@heroicons/react/24/outline';
 import Link from 'next/link';
@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <main className="flex min-h-screen flex-col p-6">
       <div className="flex h-20 shrink-0 items-end rounded-lg bg-blue-500 p-4 md:h-52">
-      < p className={`${lusitana.className} text-xl text-gray-800 md:text-3xl md:leading-normal`}>
+      < p className={`${montserrat.className} text-xl text-gray-800 md:text-3xl md:leading-normal`}>
         { <AcmeLogo /> } 
       </p>
       </div>
