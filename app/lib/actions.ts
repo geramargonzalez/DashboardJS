@@ -29,9 +29,9 @@ export async function createInvoice(formData: FormData) {
     VALUES (${customerId}, ${amountInCents}, ${status}, ${date})
   `;
 
-  /// Clean the cache
+  /// Clean the Cache
   revalidatePath('/dashboard/invoices');
-  // redirect module
+  // redirect Module
   redirect('/dashboard/invoices');
 
 }
