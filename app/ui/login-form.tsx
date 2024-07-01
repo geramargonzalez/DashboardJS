@@ -14,9 +14,9 @@ import { authenticate } from '@/app/lib/actions';
 
 
 export default function LoginForm() {
-  const [errorMessage, seterrorMessage] = useState(authenticate);
+ // const [errorMessage, formAction] = useState(0);
   return (
-    <form action={seterrorMessage} className="space-y-3">
+    <form  className="space-y-3">
       <div className="flex-1 rounded-lg bg-gray-50 px-6 pb-4 pt-8">
         <h1 className={`${montserrat.className} mb-3 text-2xl`}>
           Please log in to continue.
